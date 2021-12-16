@@ -1,0 +1,59 @@
+.modal__content_addProduct h2{
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.modal__content_addProduct h3{
+    width: 80%;
+    font-size: 18px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.modal__content_addProduct {
+    text-align: center;
+}
+
+
+.modal__content_addProduct input {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 5px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.modal__content_addProduct textarea {
+    width: 80%;
+    margin: 0px auto;
+    padding-left: 10px;
+}
+
+.AddProductButton {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.AddProductButton button{
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.AddProductButton .close {
+    background: hsla(0, 93%, 29%, 0.8);
+}
+
+.AddProductButton .add {
+    background: rgb(18, 138, 18);
+}
+
+

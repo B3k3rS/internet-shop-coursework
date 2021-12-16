@@ -1,0 +1,103 @@
+.modal{
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    z-index: 9;
+}
+
+.modal.active {
+    transform: scale(1);
+}
+
+.modal__content{
+    padding: 20px;
+    border-radius: 15px;
+    background: #333;
+    width: 500px;  
+}
+
+.modal__content{
+    color: #fff;
+}
+
+.modal__content p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.modal__content .img, .modal__content .img img{
+    width: 100%;
+}
+    
+.modal__content .img img{
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.4);
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+
+.modal__content h2{
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.modal__content p{
+    padding-left: 10px;
+    border-left: 3px solid rgb(97, 48, 112);
+    margin: 15px 0;
+}
+
+.modalbuy{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.modalbuy select{
+    min-width: 100%;
+    font-size: 14px;
+    height: 30px;
+}
+
+.modalbutton{
+    text-align: right;
+    margin: 10px 0;
+}
+
+.modalbutton button{
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 10px;
+    width: 100px;
+    font-weight: normal;
+    font-size: 14px;
+    height: 25px;
+}
+
+.modalbutton .close{
+    background: hsla(0, 93%, 29%, 0.8);
+}
+
+.modalbutton .buy {
+    background: rgb(18, 138, 18);
+} 
+.adminPanel{
+    text-align: left;
+    padding-top: 10px;
+    border-top: 1px solid #Fff;
+    margin: 0;
+}
+.adminPanel button{    
+    padding: 0;
+    margin-left: 0;
+    margin-right: 10px;
+}

@@ -1,0 +1,84 @@
+.loginblock{
+    margin: 25vh auto;
+    width: 800px;
+    
+    background: rgba(36, 36, 36, 0.9);;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.loginblock .img{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.loginblock .img img{
+    width: 400px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.loginblock h2{
+    font-size: 26px;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.inputblock{
+    margin: 0 auto;
+    width: 400px;
+}
+
+.inputblock input{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.button{
+    width: 100%;
+    text-align: center;
+}
+
+.button button{
+    background: rgb(18, 138, 18);
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.singUp{
+    color: #fff 50%;
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    text-decoration: underline;
+}
+.password{
+    position: relative;
+}
+.showPass{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 30%;
+}
+.showPass:hover{
+    cursor: pointer;
+}

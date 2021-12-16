@@ -1,0 +1,71 @@
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: 0 5px 0 5px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+a:hover{
+    color: rgb(236, 236, 236);
+    transition: 0.2s;
+}
+
+header{
+    margin-top: 40px;
+}
+
+.nav_menu{
+    margin-right: auto;    
+    margin-left: 30px;
+}
+
+.main_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+    background: rgba(36, 36, 36, 0.8);
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.accept{
+    display: none;
+}
+
+.logo{
+    font-size: 23px;
+}
+
+.login{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+/*----------------------------------------------*/
+
+.hidden-servers{
+    display: block;
+}
+
+.accExit{
+    height: 16px;
+    width: 16px;
+    margin-left: 20px;
+}
+
+.accExit:hover{
+    cursor: pointer;
+}
+
+.nickname{
+    text-transform: uppercase;
+}

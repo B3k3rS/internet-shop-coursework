@@ -1,0 +1,168 @@
+.profileBlock{
+    background: rgba(36, 36, 36, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    width: 98%;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.profileHeader{
+    width: 100%;
+    background: #333;
+    border-radius:  5px 5px 0 0;
+    margin-bottom: 10px;
+}
+
+.profileHeader p{
+    color: #FFF;
+    padding: 3px 0;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 24px;
+}
+
+.profileNav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.profileNav a{
+    flex-basis: inherit;
+    margin: 5px;
+    padding: 5px 10px;
+    background: #535353;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfileInfoBlock{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    width: 100%;
+}
+.information{
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.information h3{
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    
+}
+.information p{
+    font-weight: normal;
+    font-size: 18px;
+    border-bottom: 1px dashed #fff;
+    color: #fff;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    background: #535353;
+}
+.avatar img{
+    width: 200px;
+    height: 200px;
+}
+.profileAboutUser{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.cartTable table{
+    width: 98%;
+    margin: 0 auto;
+    
+}
+
+.cartTable th{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+.cartTable table td{
+    font-size: 16px;
+    color: #fff
+}
+
+.cartTable table th, .cartTable table td{
+    text-align: left;
+}
+
+.cartTable{
+    border: none;
+    padding-bottom: 15px;
+}
+
+.ProfileCard {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+input{
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.smallInput{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallInput input{
+    width: 70px;
+}
+
+input.summ{
+    width: 150px;
+}
+.confirm{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+.confirm input{ 
+    width: 200px;
+} 
+
+
+.confirm button {
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    color: #fff;
+    background:rgb(18, 138, 18);
+}
+
+.cardInfo{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}

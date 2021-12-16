@@ -1,0 +1,100 @@
+.news_block{
+    background: rgba(36, 36, 36, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    width: 98%;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    padding-top: 0;
+        
+}
+
+.right_block_title{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+.newsinfo_img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    
+}
+
+.newsinfo_info{
+    font-size: 13px;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.postblock{
+    position: relative;
+    width: 49%;
+    margin: 10px auto;
+    display: block;
+    background: rgba(58, 58, 58, 0.8);
+    border-radius: 5px;
+}
+
+.newsinfo_date{
+    text-align: right;
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+.posts{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.newsHeader{
+    width: 100%;
+    background: #333;
+    border-radius:  5px 5px 0 0;
+    margin-bottom: 10px;
+}
+
+.newsHeader p{
+    color: #FFF;
+    padding: 3px 0;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 24px;
+}
+
+.addNews button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+    background: rgb(18, 138, 18);
+}
+
+.addNews{
+    text-align: right;
+    margin-right: 4.5%;
+}
+
+.adminDeletePost {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0 5px 0 0;
+    color: #fff;
+    background: hsla(0, 93%, 29%, 0.8);
+}

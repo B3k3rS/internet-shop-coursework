@@ -1,0 +1,32 @@
+.link_blocks{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.link_block{
+    background: rgba(36, 36, 36, 0.8);
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    width: 46%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link_block img{
+    width:80%;
+    padding: 0 10px;    
+}
+
+.disc img{
+    width: 75%;
+}
+
+.link_block:hover{
+    background: hsla(349, 93%, 49%, 0.8);
+    transition: 0.5s;
+}
+

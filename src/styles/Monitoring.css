@@ -1,0 +1,131 @@
+.monitor_block{
+    background: rgba(36, 36, 36, 0.8);
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    margin-top: 15px;
+    text-align: center;
+}
+
+.monitor_info span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.monitor_info{
+    padding: 10px 20px;
+    padding-bottom: 0;  
+}
+
+.server_monitor{
+    padding: 5px 0;
+}
+
+.serverqueue{
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.refresh{
+    width: 90%;
+    background: rgba(95, 95, 95, 0.8);
+    border: none;
+    border-radius: 2px;
+    color:#fff;
+    height: 40px;
+    margin: 15px 0;
+    margin-top: 0;
+}
+
+.server_name{
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.progress-bar{
+    height: 8px;
+    font-size: 0;
+    background: white;
+    margin: 2px 0;
+}
+
+.progress-bar_online{
+    height: 100%;
+    background: linear-gradient(45deg, hsla(349, 93%, 49%, 0.8) 25%, #f78989 25%, #f78989 50%,hsla(349, 93%, 49%, 0.8) 50%, hsla(349, 93%, 49%, 0.8) 75%, #f78989 75%, #f78989 100%, hsla(349, 93%, 49%, 0.8) 100%);
+    background-size: 10px 10px;
+    animation: animateBg 0.5s linear infinite;
+}
+
+@keyframes animateBg
+{
+    0%
+    {
+        background-position: 10px;
+    }
+}
+
+.server_monitor_info{
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.server_online{
+    font-size: 16px;
+    display: flex;
+    align-items:center;
+}
+
+.monitor_image_block{
+    height: 16px;
+    width: 16px;
+    margin: 0 2px;
+    padding: 0 ;
+    font-size: 0;
+
+}
+
+.server_info_buttons{
+    display: flex;
+    margin-top: 3px;
+}
+
+.stats{
+    background-image: url('../img/icons/stats.png');
+    background-size: 100%;
+    background-position: center;
+}
+
+.stats:hover{
+    background-image: url('../img/icons/stats_active.png');
+    transition: 0.2s;
+}
+
+.bans{
+    background-image: url('../img/icons/ban-user.png');
+    background-size: 100%;
+    background-position: center;
+}
+
+.bans:hover{
+    background-image: url('../img/icons/ban-user_active.png');
+    transition: 0.2s;
+}
+
+.play{
+    background-image: url('../img/icons/play.png');
+    background-size: 100%;
+    background-position: center;
+}
+
+.play:hover{
+    background-image: url('../img/icons/play_active.png');
+    transition: 0.2s;
+}
+
+.quote{
+    font-weight: normal;
+    font-size: 10px;
+    padding: 0 1px;
+}
